@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+.nav-logo-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav-logo-button img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: none;
+  display: block;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.ref-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: underline;
+}
+
+.calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4vh;
+  padding-bottom: 3vh;
+  background-color:  white; 
+}
+
+iframe {
+  border: 0;
+  width: 800px;
+  height: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tasks img{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+.tasks {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+
+}
+
+.task-title {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#add {
+  left: 20vw;
+  background-color: #fef7ff;
+  border: solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#complete {
+  right: 20vw;
+  background-color: green;
+  color: white;
+  border: solid black 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #f2efef;
+  position: absolute;
+  width: 100vw;
+  bottom: -4vw;
+  left: 0;
+  color: black;
+  padding-top: 10px;
+  border-top: 3px solid black;
+}
+
+.footer p {
+  position: relative;
+  left: 3vw;
+}
+.foot-links {
+  display: flex;
+  gap: 1vw;
+  position: absolute;
+  bottom: 1vw;
+  right: 3vw;
+  font: inherit;
+  text-decoration: none;
+}
+
+.foot-links a {
+  color: black;
+  text-decoration: none; 
+}

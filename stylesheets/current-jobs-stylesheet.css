@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+
+.nav-logo-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav-logo-button img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: none;
+  display: block;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.ref-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: underline;
+}
+
+header {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.job-slider {
+  max-width: 800px;
+  border: 3px solid black;
+  margin: 50px auto;
+  border-radius: 8px;
+  background-color: #fef7ff;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid black;
+  padding: 5px;
+  font-size: medium;
+}
+
+.job p {
+  padding-left: 5px;
+}
+
+.job li {
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.arrow img {
+  width: 50px;
+  height: 50px;
+  padding: auto;
+}
+
+.arrow {
+  width: auto;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#left {
+  left: 10px;
+}
+
+#right {
+  right: 10px;
+}
+
+.tasks img{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.tasks {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  text-align: center; /* Centers the text inside the button */
+}
+
+.task-title {
+  display: block;
+  font-size: 14px; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin-bottom: 5px; /* Adds space between the title and icon */
+}
+
+#add {
+  left: 20vw;
+  background-color: #fef7ff;
+  border: solid;
+  border-radius: 5px;
+  cursor: pointer;
+margin-bottom: 10px;}
+
+#complete {
+  right: 20vw;
+  background-color: green;
+  color: white;
+  border: solid black 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.footer {
+  background-color: #f2efef;
+  position: absolute;
+  width: 100vw;
+  bottom: -3vw;
+  left: 0;
+  color: black;
+  padding-top: 10px;
+  border-top: 3px solid black;
+}
+
+.footer p {
+  position: relative;
+  left: 3vw;
+}
+.foot-links {
+  display: flex;
+  gap: 1vw;
+  position: absolute;
+  bottom: 1vw;
+  right: 3vw;
+  font: inherit;
+  text-decoration: none;
+}
+
+.foot-links a {
+  color: black;
+  text-decoration: none; 
